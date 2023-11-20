@@ -5,7 +5,7 @@ NEZHA_KEY=${NEZHA_KEY:-''}
 TLS=${TLS:-'0'}
 UUID=${UUID:-'2b8aa0b8-79fb-4d11-ae41-3aa2f5288866'}
 HOST_NAME=${HOST_NAME:-'important-slug-fedora.cyclic.app'} #请填写服务器的ip或域名，必须修改
-HOST_PORT=${HOST_PORT:-'3000'}  #请填写服务器分配的端口，必需修改
+HOST_PORT=${HOST_PORT:-'443'}  #请填写服务器分配的端口，必需修改
 
 if [ "$TLS" -eq 0 ]; then
   NEZHA_TLS=''
