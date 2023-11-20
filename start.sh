@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-NEZHA_SERVER=${NEZHA_SERVER:-'nz.nezha.org'}
-NEZHA_PORT=${NEZHA_PORT:-'5555'}
-NEZHA_KEY=${NEZHA_KEY:-'eOLJC0tJpf8Q4dfsd'}
+NEZHA_SERVER=${NEZHA_SERVER:-''}
+NEZHA_PORT=${NEZHA_PORT:-''}
+NEZHA_KEY=${NEZHA_KEY:-''}
 TLS=${TLS:-'0'}
 UUID=${UUID:-'2b8aa0b8-79fb-4d11-ae41-3aa2f5288866'}
 HOST_NAME=${HOST_NAME:-'aa.bbb.com'} #请填写服务器的ip或域名，必须修改
